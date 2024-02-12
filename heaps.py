@@ -86,13 +86,12 @@ my_heap.insert(5)
 my_heap.insert(7)
 my_heap.insert(10)
 
-print(my_heap.heap_list)
 
-print(my_heap.min_child(0))
-print(my_heap.min_child(1))
-print(my_heap.min_child(2))
-print(my_heap.min_child(3))
-print(my_heap.min_child(4))
+# print(my_heap.min_child(0))
+# print(my_heap.min_child(1))
+# print(my_heap.min_child(2))
+# print(my_heap.min_child(3))
+# print(my_heap.min_child(4))
 
 # print(my_heap.delete_min()) # removing min node i.e 5 
 

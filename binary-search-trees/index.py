@@ -43,6 +43,16 @@ class BST:
             return self._search(node.right, prop, value)
 bstree = BST()
 
+for i in range(10):
+    bstree.__setitem__({
+    "id": i,
+    "name": f"John {i}",
+    "price": 100*i
+})
+    
+
+print(bstree.__getitem__("id", 5))
+
     
 
         
